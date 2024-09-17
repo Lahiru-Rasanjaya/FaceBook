@@ -1,0 +1,5 @@
+.postAllContent {
+  flex: 5;
+  position: sticky;
+  margin-top: 3rem;
+}

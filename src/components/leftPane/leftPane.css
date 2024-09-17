@@ -1,0 +1,33 @@
+.leftAllContent {
+  flex: 2;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  position: sticky;
+  top: 50px;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(105, 105, 105);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(32, 32, 32);
+}
+.AllLeftIcons {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+.IconName {
+  margin-left: 10px;
+}
+.pages{
+    margin: 1rem;
+}
+.imagePageName{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+

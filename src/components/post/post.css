@@ -1,0 +1,34 @@
+.imageContent{
+    overflow: hidden;
+    height: 30rem;
+}
+.logoNameTime{
+    display: flex;
+    align-items: center;
+    margin: 10px 16px;
+}
+.name{
+    font-size: 15px;
+}
+.time{
+    font-size: 10px;
+    margin-left: 10px;
+}
+.userUploadImage{
+    display: flex;
+    flex-direction: column;
+}
+.description{
+    margin-left: 16px;
+    font-size: 15px;
+}
+.useerImag{
+    background-size: cover;
+}
+.reactAndComments{
+    margin: 16px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}

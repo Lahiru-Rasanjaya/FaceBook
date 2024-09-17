@@ -1,0 +1,75 @@
+nav {
+  display: flex;
+  height: 50px;
+  background-color: #3b5998;
+  align-items: center;
+  font-family: Poppins;
+  width: 100%;
+  color: white;
+  position: absolute;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+.navBarLeft {
+  flex: 4;
+}
+.navBarCenter {
+  flex: 6;
+  display: flex;
+  width: 100%;
+  height: 32px;
+  background-color: white;
+  align-items: center;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.searchIcon {
+  color: rgb(59, 59, 59);
+  margin: 0 8px 0 10px;
+}
+.iconNumer{
+    font-size: 12px;
+}
+.searchBar{
+    width: 88%;
+    height: 16px;
+    border: none;
+    outline: none;
+}
+.navBarRight {
+  flex: 3;
+}
+.navBarLeft span {
+  margin-left: 16px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.twoPagesAndIcons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 48px;
+}
+.navIcons {
+  display: flex;
+}
+.profilePicture{
+  width: 32px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+span {
+  cursor: pointer;
+}
+.iconNumer{
+  position: absolute;
+  background-color: red;
+  border-radius: 50%;
+  margin-left: 25px;
+  padding: 0 5px 0 5px;
+  font-size: 10px;
+  margin-top: -0.1rem;
+}
